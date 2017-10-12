@@ -1,0 +1,83 @@
+{
+  "name": "aharvard/compositor-design-system",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Design System",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/aharvard/compositor-design-system",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "compositor-design-system",
+      "subhead": "Exploring Compositor.io to build a front end design system.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "compositor-design-system: Exploring Compositor.io to build a front end design system.",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "aharvard",
+          "repo": "compositor-design-system"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>Compositor Design System</h1>\n\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/aharvard/compositor-design-system",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/aharvard",
+          "text": "aharvard"
+        }
+      ]
+    }
+  ]
+}
